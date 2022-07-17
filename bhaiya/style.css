@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+}
+#navbar ul {
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    display:block;
+    padding:3px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color:aliceblue;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+    padding:3px 2px 3px 30px;
+    background-image: url(./c.jpg);
+    width:1900px;
+    height:600px;
+    color:white;
+}
+.h-primary{
+    margin:30px;
+    font-weight:700;
+    font-family: cursive;
+    font-size: 50px;
+    color:red;
+}
+#home h3{
+    font-weight:700;
+    font-family: cursive;
+    font-size: 50px;
+}
+#home p{
+    font-weight: 800;
+}
+ .btn{
+   color:white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: 2px solid white;
+   background-color: aqua;
+}
+#services{
+    margin:34px;
+    display:flex;
+}
+#services .box{
+    border:2px solid brown;
+    padding: 34px;
+    margin: 3px 20px;
+    border-radius: 20px;
+    background: aliceblue;
+}
+#services .box img{
+    height:160px;
+    display: block;
+    margin: auto;
+}
+#services h2{
+    text-align: center;
+}
+#myservices{
+    margin:34px;
+    display:flex;
+}
+#myservices .box{
+    border:2px solid brown;
+    padding:30px;
+    margin:3px 20px;
+    border-radius: 20px;
+    background: aliceblue;
+}
+#myservices .box img{
+    height:160px;
+    display: block;
+    margin: auto;
+}
+#myservices h2{
+    text-align: center;
+}
+.services-container{
+    background-color: beige;
+}
+.steps{
+    margin:40px;
+    display: flex;
+}
+.steps .box img{
+    height:160px;
+    display: block;
+    margin: auto;
+}
+.steps .box{
+    border:5px solid black;
+    padding:30px;
+    margin:1px 40px;
+    border-radius: 20px;
+    background-color: lightpink;
+}
+.container{
+    text-align: center;
+}
+.reviews{
+    margin:30px;
+    display:flex;
+    background-color: lightskyblue;
+}
+.reviews .box{
+    border:2px solid white;
+    padding:40px;
+    margin:15px 40px;
+    border-radius:400px;
+}
+.contact-container{
+    background-image: url(./about.jpg);
+    width:1900px;
+    height:500px;
+    font-weight: 600;
+    padding:2px 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color:white;
+}
+.container .box h3{
+color: white;
+font-family: cursive;
+font-weight: 600;
+}
+.order-container{
+    background-image: url(./contact.png);
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+}
+.group{
+    width:600px;
+    margin:2px 600px;
+}
